@@ -10,3 +10,28 @@ body {
   padding: 20px;
   background-color: #f8f8f8;
 }
+
+.app-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.app-footer {
+  background-color: #f8f8f8;
+}
+
+.navbar__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar__item i {
+  font-size: 1.5rem;
+  color: #526356;
+}
+
+.navbar__item i:hover {
+  color: green;
+}
