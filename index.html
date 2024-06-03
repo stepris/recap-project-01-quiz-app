@@ -13,35 +13,37 @@
   </head>
 
   <body>
-    <header class="app-header">
-      <h1>Quiz App</h1>
+    <header class="header">
+      <h1 class="header__title">Quiz App</h1>
     </header>
     <main>
-      <section class="app-main-content">
-        <article class="question-card">
-          <p class="question-text">What property flips the axes in flexbox?</p>
-          <button class="show-answer">Show Answer</button>
-          <p class="answer-text hidden">flex-direction</p>
-          <div class="tags">
-            <span class="tag">#html</span>
-            <span class="tag">#flexbox</span>
-            <span class="tag">#css</span>
+      <section class="quiz">
+        <article class="quiz-card">
+          <p class="quiz-card__question">
+            What property flips the axes in flexbox?
+          </p>
+          <button class="quiz-card__button">Show Answer</button>
+          <p class="quiz-card__answer hidden">flex-direction</p>
+          <div class="quiz-card__tags">
+            <span class="quiz-tag">#html</span>
+            <span class="quiz-tag">#flexbox</span>
+            <span class="quiz-tag">#css</span>
           </div>
         </article>
-        <article class="question-card">
-          <p class="question-text">Lorem Ipsum dolor sit?</p>
-          <button class="show-answer">Show Answer</button>
-          <p class="answer-text hidden">Answer</p>
-          <div class="tags">
-            <span class="tag">#html</span>
-            <span class="tag">#flexbox</span>
-            <span class="tag">#css</span>
+        <article class="quiz-card">
+          <p class="quiz-card__question">Lorem Ipsum dolor sit?</p>
+          <button>Show Answer</button>
+          <p class="quiz-card__answer hidden">Answer</p>
+          <div class="quiz-card__tags">
+            <span class="quiz-tag">#html</span>
+            <span class="quiz-tag">#flexbox</span>
+            <span class="quiz-tag">#css</span>
           </div>
         </article>
       </section>
     </main>
-    <footer class="app-footer">
-      <nav class="app-footer__navbar">
+    <footer class="footer">
+      <nav class="footer__navbar">
         <ul class="navbar__list">
           <li>
             <a href="index.html" class="navbar__item">

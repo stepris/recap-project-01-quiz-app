@@ -5,19 +5,20 @@ body {
   box-sizing: border-box;
 }
 
-.app-header {
+.header {
   text-align: center;
   padding: 20px;
   background-color: #f8f8f8;
 }
 
-.app-footer {
+.hidden {
+  display: none;
+}
+
+.footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-}
-
-.app-footer {
   background-color: #f8f8f8;
 }
 
