@@ -60,7 +60,7 @@ ul {
 }
 
 .quiz-card {
-  background-color: white;
+  background-color: rgb(237, 237, 237);
   margin: 60px 15px;
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -72,16 +72,15 @@ ul {
 
 .quiz-card__bookmark {
   position: absolute;
-  right: 10px;
-  top: -10px;
-  font-size: 1.6rem;
+  right: 3px;
+  top: -14px;
+  font-size: 2rem;
   color: rgb(172, 157, 157);
 }
 
 .quiz-card__question {
   font-size: 1.2rem;
   margin-bottom: 30px;
-  /* text-align: center; */
   align-self: center;
 }
 
@@ -124,7 +123,7 @@ ul {
 .navbar__list {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
   padding-left: 0;
 }
 
