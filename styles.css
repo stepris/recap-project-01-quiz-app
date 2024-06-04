@@ -78,6 +78,10 @@ ul {
   color: rgb(172, 157, 157);
 }
 
+.quiz-card__bookmark:hover {
+  color: black;
+}
+
 .quiz-card__question {
   font-size: 1.2rem;
   margin-bottom: 30px;
@@ -128,7 +132,7 @@ ul {
 }
 
 .navbar__item i {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: #526356;
 }
 
